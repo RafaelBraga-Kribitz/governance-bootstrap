@@ -17,11 +17,7 @@
 #       contact: "name <email>"            # optional, for outage triage
 #       notes:   "free-form context"       # optional
 
-consumers: [
-- repo: decision-analytics-reconstruction
-contact: rafaelbragakribitz@gmail.com
-notes: "First pilor consumer."
-]
+consumers: []
   # - repo: RafaelBraga-Kribitz/project-a
   #   contact: rafaelbragakribitz@gmail.com
   #   notes: "First pilot consumer."
