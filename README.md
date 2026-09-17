@@ -12,6 +12,7 @@ flowchart LR
 ```
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Status: Maintained](https://img.shields.io/badge/status-Maintained-brightgreen)](#status)
 **Status:** Maintained
 
 LLM coding sessions invent a new audit, declare the work closed, and leave no machine-readable state. This kit turns each recurrence-prone problem into a YAML finding that ratchets from an open gap to a CI-enforced gate, then vendors that discipline into the projects that subscribe to it.
@@ -148,6 +149,8 @@ A consumer that never closes a finding, or that closes findings by editing YAML 
 **Status:** Maintained
 
 The hub, templates, fanout workflow, and first consumer (`decision-analytics-reconstruction`) are in place. Releases are still dispatched with `workflow_dispatch` on `fanout-update.yml` until the first `vX.Y.Z` tag.
+
+Repository last updated 2026-09-16 (date of the last commit).
 
 ## License
 
