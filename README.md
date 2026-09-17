@@ -1,5 +1,14 @@
 # governance-bootstrap
 
+![governance-bootstrap — A vendorable governance kit: YAML findings that ratchet from open gap to CI-enforced gate, synced bidirectionally to every consumer project.](docs/assets/hero.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Status: Maintained](https://img.shields.io/badge/status-Maintained-brightgreen)](#status)
+
+**Status:** Maintained
+
+LLM coding sessions invent a new audit, declare the work closed, and leave no machine-readable state. This kit turns each recurrence-prone problem into a YAML finding that ratchets from an open gap to a CI-enforced gate, then vendors that discipline into the projects that subscribe to it.
+
 ```mermaid
 flowchart LR
     open["open: script reports GAP<br/>CI stays green"]
@@ -10,12 +19,6 @@ flowchart LR
     adversary -->|pass| closed
     adversary -->|fail| reopen --> open
 ```
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: Maintained](https://img.shields.io/badge/status-Maintained-brightgreen)](#status)
-**Status:** Maintained
-
-LLM coding sessions invent a new audit, declare the work closed, and leave no machine-readable state. This kit turns each recurrence-prone problem into a YAML finding that ratchets from an open gap to a CI-enforced gate, then vendors that discipline into the projects that subscribe to it.
 
 ## The idea
 
@@ -160,6 +163,13 @@ MIT — see [`LICENSE`](LICENSE).
 
 <table>
   <tr>
+    <td width="110">
+      <img
+        src="docs/assets/Author_MDS_Rafael_Braga-Kribitz_kroped.png"
+        alt="Rafael Braga-Kribitz"
+        width="96"
+      />
+    </td>
     <td>
       <strong>Rafael Braga-Kribitz</strong><br />
       Seiersberg-Pirka, Austria · Portfolio project, 2026<br />
