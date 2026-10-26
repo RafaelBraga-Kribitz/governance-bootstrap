@@ -2,14 +2,41 @@
 
 ![governance-bootstrap: a vendorable governance kit: YAML findings that ratchet from open gap to CI-enforced gate, synced bidirectionally to every consumer project.](docs/assets/hero.png)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: Maintained](https://img.shields.io/badge/status-Maintained-brightgreen)](#status)
+[![License: MIT](https://img.shields.io/badge/License-MIT-5A5C61?labelColor=26282C)](LICENSE)
+[![Status: Maintained](https://img.shields.io/badge/status-Maintained-5A5C61?labelColor=26282C)](#status)
 
 **Status:** Maintained
 
 Coding sessions with a large language model (LLM) agent invent a new audit, declare the work closed, and leave no machine-readable state. This kit turns each recurrence-prone problem into a YAML finding that ratchets from an open gap to a CI-enforced gate, then vendors that discipline into the projects that subscribe to it.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "fontFamily": "BKribitz, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif",
+  "themeVariables": {
+    "background": "#E4E6EA",
+    "primaryColor": "#DCDEE2",
+    "primaryTextColor": "#26282C",
+    "primaryBorderColor": "#26282C",
+    "secondaryColor": "#E4E6EA",
+    "secondaryTextColor": "#26282C",
+    "secondaryBorderColor": "#5A5C61",
+    "tertiaryColor": "#E4E6EA",
+    "tertiaryTextColor": "#26282C",
+    "tertiaryBorderColor": "#C2C4CA",
+    "lineColor": "#5A5C61",
+    "textColor": "#26282C",
+    "mainBkg": "#DCDEE2",
+    "nodeBorder": "#26282C",
+    "clusterBkg": "#E4E6EA",
+    "clusterBorder": "#C2C4CA",
+    "edgeLabelBackground": "#E4E6EA",
+    "titleColor": "#26282C",
+    "fontFamily": "BKribitz, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif",
+    "fontSize": "14px"
+  },
+  "flowchart": { "curve": "linear", "htmlLabels": true, "padding": 8 }
+}}%%
 flowchart TD
     open["open: script reports GAP<br/>CI stays green"]
     closed["closed: same script is a hard gate"]
@@ -97,6 +124,33 @@ project-a/                          Mode A — vendored (recommended)
 ```
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "fontFamily": "BKribitz, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif",
+  "themeVariables": {
+    "background": "#E4E6EA",
+    "primaryColor": "#DCDEE2",
+    "primaryTextColor": "#26282C",
+    "primaryBorderColor": "#26282C",
+    "secondaryColor": "#E4E6EA",
+    "secondaryTextColor": "#26282C",
+    "secondaryBorderColor": "#5A5C61",
+    "tertiaryColor": "#E4E6EA",
+    "tertiaryTextColor": "#26282C",
+    "tertiaryBorderColor": "#C2C4CA",
+    "lineColor": "#5A5C61",
+    "textColor": "#26282C",
+    "mainBkg": "#DCDEE2",
+    "nodeBorder": "#26282C",
+    "clusterBkg": "#E4E6EA",
+    "clusterBorder": "#C2C4CA",
+    "edgeLabelBackground": "#E4E6EA",
+    "titleColor": "#26282C",
+    "fontFamily": "BKribitz, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif",
+    "fontSize": "14px"
+  },
+  "flowchart": { "curve": "linear", "htmlLabels": true, "padding": 8 }
+}}%%
 flowchart TB
     hub["governance-bootstrap<br/>templates/ · scripts/ · consumers.yaml"]
     fanout["fanout-update.yml<br/>on tag v*.*.*"]
